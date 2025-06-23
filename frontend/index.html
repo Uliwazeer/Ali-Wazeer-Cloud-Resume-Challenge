@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Cloud Resume Challenge | Ali Wazeer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-cloud"></i> The Cloud Resume Challenge</h1>
+    <p id="subTitle">Ali Wazeer | <i class="fas fa-cogs"></i> DevOps & SRE Engineer</p>
+  </header>
+
+  <nav>
+    <a href="#about"><i class="fas fa-user"></i> About</a>
+    <a href="#skills"><i class="fas fa-tools"></i> Skills</a>
+    <a href="#project"><i class="fas fa-project-diagram"></i> Project</a>
+    <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+    <a href="#" id="themeToggle"><i class="fas fa-adjust"></i></a>
+  </nav>
+
+  <div class="lang-switch">
+    <button onclick="switchLang('en')"><i class="fas fa-language"></i> English</button>
+    <button onclick="switchLang('ar')"><i class="fas fa-globe"></i> العربية</button>
+  </div>
+
+  <div class="container">
+    <section id="about">
+      <h2 data-en="About Me" data-ar="عنّي"><i class="fas fa-user-circle"></i> About Me</h2>
+      <p data-en="I'm Ali Wazeer, a DevOps & SRE Engineer passionate about automation, cloud platforms, and infrastructure as code."
+         data-ar="أنا علي وزير، مهندس DevOps وSRE شغوف بالأتمتة ومنصات السحابة والبنية التحتية ككود.">
+        I'm Ali Wazeer, a DevOps & SRE Engineer passionate about automation, cloud platforms, and infrastructure as code.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2><i class="fas fa-laptop-code"></i> Skills</h2>
+      <ul class="logos">
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg" title="AWS" height="30"/></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" title="Docker" height="30"/></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" title="Terraform" height="30"/></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" title="Kubernetes" height="30"/></li>
+        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" title="GitHub" height="30"/></li>
+      </ul>
+      <ul>
+        <li>AWS, Azure, Terraform, Docker, Kubernetes</li>
+        <li>CI/CD: GitHub Actions, Jenkins</li>
+        <li>Monitoring: Prometheus, Grafana</li>
+        <li>Python, Bash, PowerShell</li>
+      </ul>
+    </section>
+
+    <section id="project">
+      <h2><i class="fas fa-cloud-upload-alt"></i> The Cloud Resume Challenge</h2>
+      <p>This project is a full-stack cloud-based resume using AWS (S3, Lambda, API Gateway, DynamoDB), Terraform, CI/CD with GitHub Actions, and more.</p>
+    </section>
+
+    <section id="contact">
+      <h2><i class="fas fa-address-book"></i> Contact</h2>
+      <p>Email: <a href="mailto:ali.noureldeen.wazeer@gmail.com">ali.noureldeen.wazeer@gmail.com</a></p>
+      <p><i class="fas fa-eye"></i> Visitor count: <span id="counter">Loading...</span></p>
+
+      <div class="social">
+        <a href="https://github.com/Uliwazeer" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/aliwazeer" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/efg_holding" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Ali Wazeer. Built with ☁️💻 | Powered by <i class="fab fa-aws"></i> <i class="fab fa-dev"></i></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
