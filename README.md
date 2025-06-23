@@ -1,4 +1,4 @@
-![Screenshot (149)](https://github.com/user-attachments/assets/fc3e3009-2e26-4a00-9bc7-9c54c9a2156e)# Cloud Resume Project – Ali Wazeer
+## Cloud Resume Project – Ali Wazeer
 
 This project is a complete implementation of the Cloud Resume Challenge. It demonstrates skills in DevOps, Cloud Infrastructure, and Full-Stack serverless application development. The main goal is to host a resume website with a real-time visitor counter using AWS services and manage the infrastructure using Terraform.
 
@@ -317,6 +317,8 @@ A fully functional static resume website with:
 
 ![Screenshot (156)](https://github.com/user-attachments/assets/0000fa1a-7962-4f6e-b2e8-b0405e786f92)
 
+
+![Screenshot (149)](https://github.com/user-attachments/assets/fc3e3009-2e26-4a00-9bc7-9c54c9a2156e)
 
 ![Screenshot (155)](https://github.com/user-attachments/assets/05b41eb5-f35b-466d-aa18-a065b5919fcf)
 
