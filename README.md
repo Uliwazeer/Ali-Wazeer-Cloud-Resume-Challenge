@@ -45,6 +45,8 @@ This setup is completely serverless and deployed using Infrastructure as Code (T
 
 ---
 
+## Live Demo: http://cloudresume-ali-bucket-47457077.s3-website-us-east-1.amazonaws.com
+
 ## Tech Stack Used
 
 * AWS S3 (Static Website Hosting)
